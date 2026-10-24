@@ -1,0 +1,23 @@
+Return only the final answer as valid JSON.
+
+Do not include explanations, derivations, markdown, code fences, or any text outside the JSON object.
+
+The JSON object must contain:
+- "configuration_count": the actual integer number of physically valid configurations.
+- "configurations": an array containing exactly one object for each physically valid configuration.
+
+For an RRRR four-bar or planar 5R five-bar mechanism, each configuration object must contain these numeric fields:
+- "xC_mm"
+- "yC_mm"
+- "theta3_deg"
+- "theta4_deg"
+
+For an RRRP slider-crank mechanism, each configuration object must contain these numeric fields:
+- "xC_mm"
+- "theta3_deg"
+
+All numerical values must be your calculated answers. Do not use placeholder or example values.
+
+If there are no physically valid configurations, return "configuration_count" equal to 0 and an empty "configurations" array.
+
+The number of objects in "configurations" must exactly equal "configuration_count".

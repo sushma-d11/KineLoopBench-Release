@@ -1,0 +1,25 @@
+model,cohort,comparison,n,reference_successes,comparison_successes,delta_pp,gains,losses,McNemar_exact_p_exploratory,CI95_stratified_paired_bootstrap_lower_pp,CI95_stratified_paired_bootstrap_upper_pp,Holm_p_across_4_models_posthoc
+qwen,matched_non_singular_198,Text only vs Direct,198,66,66,0.0,0,0,1.0,0.0,0.0,1.0
+qwen,matched_non_singular_198,Assisted vs Direct,198,66,66,0.0,0,0,1.0,0.0,0.0,1.0
+qwen,matched_non_singular_198,Assisted vs Text only,198,66,66,0.0,0,0,1.0,0.0,0.0,1.0
+qwen,matched_regular_near_132,Text only vs Direct,132,0,0,0.0,0,0,1.0,0.0,0.0,1.0
+qwen,matched_regular_near_132,Assisted vs Direct,132,0,0,0.0,0,0,1.0,0.0,0.0,1.0
+qwen,matched_regular_near_132,Assisted vs Text only,132,0,0,0.0,0,0,1.0,0.0,0.0,1.0
+gemma,matched_non_singular_198,Text only vs Direct,198,0,0,0.0,0,0,1.0,0.0,0.0,1.0
+gemma,matched_non_singular_198,Assisted vs Direct,198,0,66,33.3333,66,0,2.710505431213761e-20,33.3333,33.3333,1.0842021724855044e-19
+gemma,matched_non_singular_198,Assisted vs Text only,198,0,66,33.3333,66,0,2.710505431213761e-20,33.3333,33.3333,1.0842021724855044e-19
+gemma,matched_regular_near_132,Text only vs Direct,132,0,0,0.0,0,0,1.0,0.0,0.0,1.0
+gemma,matched_regular_near_132,Assisted vs Direct,132,0,0,0.0,0,0,1.0,0.0,0.0,1.0
+gemma,matched_regular_near_132,Assisted vs Text only,132,0,0,0.0,0,0,1.0,0.0,0.0,1.0
+gemini,matched_non_singular_198,Text only vs Direct,198,195,196,0.5051,3,2,1.0,-1.5152,2.5253,1.0
+gemini,matched_non_singular_198,Assisted vs Direct,198,195,198,1.5152,3,0,0.25,0.0,3.5354,0.5
+gemini,matched_non_singular_198,Assisted vs Text only,198,196,198,1.0101,2,0,0.5,0.0,2.5253,1.0
+gemini,matched_regular_near_132,Text only vs Direct,132,130,130,0.0,2,2,1.0,-3.0303,3.0303,1.0
+gemini,matched_regular_near_132,Assisted vs Direct,132,130,132,1.5152,2,0,0.5,0.0,3.7879,1.0
+gemini,matched_regular_near_132,Assisted vs Text only,132,130,132,1.5152,2,0,0.5,0.0,3.7879,1.0
+gpt,matched_non_singular_198,Text only vs Direct,198,130,141,5.5556,35,24,0.19252645776146274,-1.5152,12.6263,0.770105831045851
+gpt,matched_non_singular_198,Assisted vs Direct,198,130,148,9.0909,37,19,0.022241389472860106,2.0202,16.1616,0.06672416841858031
+gpt,matched_non_singular_198,Assisted vs Text only,198,141,148,3.5354,32,25,0.42704285650325524,-3.5354,10.6061,1.0
+gpt,matched_regular_near_132,Text only vs Direct,132,71,78,5.303,29,22,0.4010619910279374,-4.5455,15.1515,1.0
+gpt,matched_regular_near_132,Assisted vs Direct,132,71,82,8.3333,30,19,0.15240777196147803,-1.5152,18.1818,0.6096310878459121
+gpt,matched_regular_near_132,Assisted vs Text only,132,78,82,3.0303,29,25,0.6834892282353371,-7.5758,13.6364,1.0

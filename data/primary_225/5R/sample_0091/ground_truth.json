@@ -1,0 +1,40 @@
+{
+    "status": "infeasible",
+    "A": [
+        0.0,
+        0.0
+    ],
+    "B": [
+        79.80724850733692,
+        75.74075668551893
+    ],
+    "D": [
+        100.0,
+        0.0
+    ],
+    "E": [
+        129.74172291680202,
+        -39.92887012096544
+    ],
+    "distance_BE": 125.98775456408806,
+    "a": null,
+    "P": null,
+    "h": null,
+    "feasible": false,
+    "n_branches": 0,
+    "C_candidates": [],
+    "solutions": [],
+    "sample_id": "sample_0091",
+    "mechanism_family": "5R",
+    "input_parameters": {
+        "L1_mm": 100.0,
+        "L2_mm": 110.0266292204156,
+        "L3_mm": 60.487188630237135,
+        "L4_mm": 33.374601663308646,
+        "L5_mm": 49.78839976537459,
+        "theta2_deg": 43.50245742383267,
+        "theta5_deg": 306.68123319088807
+    },
+    "benchmark_state": "infeasible",
+    "near_singular_rho_threshold": 0.05
+}

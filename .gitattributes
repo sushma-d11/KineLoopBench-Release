@@ -1,0 +1,9 @@
+# Preserve byte-exact original benchmark and archived research files.
+# GitHub Desktop may otherwise convert CRLF to LF and break frozen SHA-256 hashes.
+# Files in these research-material folders intentionally retain their source bytes.
+data/** -text
+code/** -text
+subsets/** -text
+protocol/** -text
+results/** -text
+assets/** -text

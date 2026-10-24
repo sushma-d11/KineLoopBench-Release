@@ -1,0 +1,64 @@
+{
+    "status": "tangent",
+    "A": [
+        0.0,
+        0.0
+    ],
+    "B": [
+        72.84966670394489,
+        13.427561448822289
+    ],
+    "D": [
+        100.0,
+        0.0
+    ],
+    "E": [
+        114.37280300704526,
+        77.83036168202169
+    ],
+    "distance_BE": 76.62826845442379,
+    "a": 36.05529685104045,
+    "P": [
+        92.38722165319898,
+        43.73050483096794
+    ],
+    "h": 0.0,
+    "feasible": true,
+    "n_branches": 1,
+    "C_candidates": [
+        [
+            92.38722165319898,
+            43.73050483096794
+        ]
+    ],
+    "solutions": [
+        {
+            "C": [
+                92.38722165319898,
+                43.73050483096794
+            ],
+            "theta3_deg": 57.18845833894571,
+            "theta4_deg": 237.18845833894568,
+            "branch_signature": 0,
+            "singularity_score": 1.2246467991473532e-16,
+            "BC_error": 0.0,
+            "EC_error": 0.0,
+            "left_loop_residual": 0.0,
+            "right_loop_residual": 7.105427357601002e-15,
+            "validation_passed": true
+        }
+    ],
+    "sample_id": "sample_0031",
+    "mechanism_family": "5R",
+    "input_parameters": {
+        "L1_mm": 100.0,
+        "L2_mm": 74.07680706764943,
+        "L3_mm": 36.05529685104045,
+        "L4_mm": 40.57297160338334,
+        "L5_mm": 79.1463370335838,
+        "theta2_deg": 10.443473966668101,
+        "theta5_deg": 79.53715730643184
+    },
+    "benchmark_state": "singular",
+    "near_singular_rho_threshold": 0.05
+}

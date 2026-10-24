@@ -1,0 +1,50 @@
+{
+    "status": "tangent",
+    "A": [
+        0.0,
+        0.0
+    ],
+    "B": [
+        6.496612142777391,
+        -30.337573736321552
+    ],
+    "D": [
+        100.0,
+        0.0
+    ],
+    "distance_BD": 98.30184088299136,
+    "P": [
+        43.21557844720283,
+        -18.42394821632425
+    ],
+    "h": 0.0,
+    "feasible": true,
+    "n_branches": 1,
+    "solutions": [
+        {
+            "C": [
+                43.21557844720283,
+                -18.42394821632425
+            ],
+            "theta3_deg": 17.975876369678588,
+            "theta4_deg": 197.97587636967856,
+            "branch_signature": 0,
+            "singularity_score": 3.216245299353273e-16,
+            "loop_residual": 1.7763568394002505e-14,
+            "BC_error": 7.105427357601002e-15,
+            "CD_error": 0.0,
+            "validation_passed": true
+        }
+    ],
+    "sample_id": "sample_0063",
+    "mechanism_family": "RRRR",
+    "input_parameters": {
+        "L1_mm": 100.0,
+        "L2_mm": 31.025382343178787,
+        "L3_mm": 38.60332834738814,
+        "L4_mm": 59.69851253560321,
+        "theta2_deg": 282.08699866338543
+    },
+    "benchmark_state": "singular",
+    "near_singular_rho_threshold": 0.05
+}

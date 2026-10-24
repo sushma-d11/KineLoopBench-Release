@@ -1,0 +1,23 @@
+{
+  "source": "user-supplied 06_Results.zip",
+  "method": "filter benchmark_state != singular, never modify frozen scorer/ground truth",
+  "original_n": 300,
+  "original_matched_n": 264,
+  "included_full_n": 225,
+  "included_matched_n": 198,
+  "included_matched_feasible_n": 132,
+  "source_hashes_sha256": {
+    "matched": "205d9126e1f518fafcd1aec540cc21a58703037dc18b19a57b17ee50e5ecba76",
+    "qwen": "5138a23c06e9a8b935fbae5691aa9cc771e08991dd29f570c7a7f6b43e5ff806",
+    "gemma": "c102917dc68755c1e84c743f97ec88b1d11bf70bc2d47ebb97b810ff8d00c440",
+    "gemini": "1464913e22a87a2fde16e49b10e1f64dd082bda4c570d2a6327b37a4ee268684",
+    "gpt": "37822d6997eac26eeec992e2ac6294cdc416539d651d42b27fd434c9f84f36ce",
+    "a_local": "1e99df880c0e44e1560297ffa254ec6e5f442af8b32e0f1aef9fafeab3af1eb7",
+    "a_paid": "20bf962b21efb18b0f9cd791081bea6a7678d4ac7cd314eb2a2d3059293991b7"
+  },
+  "condition_handling": "Direct and assisted: 300 primary r1 records per model; text-only common paired cohort: 264 per model. Statistical sensitivity based on 198 matched non-singular cases/model.",
+  "infrastructure_failures": "None relabelled or retried; keep original frozen score fields; sole Gemini assisted timeout outside 264 matched cohort.",
+  "CI": "5000 stratified paired bootstrap resamples within 9 family-state cells; descriptive post-hoc",
+  "p": "exact two-sided McNemar for paired binary outcome; Holm per comparison across four models for exploratory sensitivity only",
+  "user_supplied_05_model_audit": "Original 05_Models.zip not present in active runtime; its prior verification is reported by user and not re-performed here."
+}

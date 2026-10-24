@@ -1,0 +1,2 @@
+# Dataset verifier and frozen scorer require Python 3 standard library only.
+# Archived generator scripts are provenance-only and are not safe to run.

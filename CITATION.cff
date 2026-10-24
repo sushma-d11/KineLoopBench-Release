@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Please cite KineLoopBench when using the benchmark."
+type: dataset
+title: "KineLoopBench: A Solver-Grounded Benchmark for Complete Configuration Recovery in Planar Mechanisms"
+authors:
+  - given-names: Sushma
+    family-names: Das
+version: 1.0.0

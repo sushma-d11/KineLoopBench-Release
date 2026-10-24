@@ -1,0 +1,64 @@
+{
+    "status": "regular",
+    "A": [
+        0.0,
+        0.0
+    ],
+    "B": [
+        67.48884671711107,
+        14.245918429795354
+    ],
+    "D": [
+        100.0,
+        0.0
+    ],
+    "distance_BD": 35.49536983455564,
+    "P": [
+        87.00168097152348,
+        5.695675911367697
+    ],
+    "h": 52.32282236219558,
+    "feasible": true,
+    "n_branches": 2,
+    "solutions": [
+        {
+            "C": [
+                108.0012271901646,
+                53.61954051510172
+            ],
+            "theta3_deg": 44.18331586711869,
+            "theta4_deg": 81.51282191766018,
+            "branch_signature": 1,
+            "singularity_score": 0.6063979710213264,
+            "loop_residual": 8.881784197001252e-15,
+            "BC_error": 1.4210854715202004e-14,
+            "CD_error": 7.105427357601002e-15,
+            "validation_passed": true
+        },
+        {
+            "C": [
+                66.00213475288237,
+                -42.22818869236632
+            ],
+            "theta3_deg": 268.4920053574775,
+            "theta4_deg": 231.16249930693604,
+            "branch_signature": -1,
+            "singularity_score": 0.6063979710213263,
+            "loop_residual": 1.0048591735576161e-14,
+            "BC_error": 0.0,
+            "CD_error": 0.0,
+            "validation_passed": true
+        }
+    ],
+    "sample_id": "sample_0041",
+    "mechanism_family": "RRRR",
+    "input_parameters": {
+        "L1_mm": 100.0,
+        "L2_mm": 68.97601483932003,
+        "L3_mm": 56.49367298830881,
+        "L4_mm": 54.213234192393124,
+        "theta2_deg": 11.919334932742608
+    },
+    "benchmark_state": "regular",
+    "near_singular_rho_threshold": 0.05
+}

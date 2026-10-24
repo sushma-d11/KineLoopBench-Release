@@ -1,0 +1,26 @@
+The image shows a planar offset RRRP slider-crank mechanism.
+The diagram is schematic and not drawn to scale; use the numerical parameters below for all calculations.
+
+Numerical parameters:
+L2 = 49.4572 mm
+L3 = 100 mm
+e = -59.2306 mm
+theta2 = 55.5214 degrees
+
+Angle convention:
+theta2 is measured counter-clockwise from the positive x-axis.
+theta3 is the orientation of connecting rod BC measured from the positive x-axis.
+Report angles in the range 0 to 360 degrees.
+
+Slider convention:
+The slider moves along the horizontal line y = e.
+The slider position is C = (xC, e).
+
+Task:
+Determine the complete set of physically valid assembly configurations for this input state.
+
+Report:
+1. The total number of valid configurations.
+2. xC and theta3 for every valid configuration.
+
+If no physically valid configuration exists, report zero configurations.

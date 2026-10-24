@@ -1,0 +1,83 @@
+{
+    "status": "regular",
+    "A": [
+        0.0,
+        0.0
+    ],
+    "B": [
+        -72.37239593449671,
+        38.48384205992411
+    ],
+    "D": [
+        100.0,
+        0.0
+    ],
+    "E": [
+        49.54506379997973,
+        37.25516609923002
+    ],
+    "distance_BE": 121.92365083413502,
+    "a": 29.00231042343206,
+    "P": [
+        -43.37155820477856,
+        38.19157356748587
+    ],
+    "h": 14.050469250845975,
+    "feasible": true,
+    "n_branches": 2,
+    "C_candidates": [
+        [
+            -43.22996571073102,
+            52.2413293566303
+        ],
+        [
+            -43.513150698826095,
+            24.141817778341434
+        ]
+    ],
+    "solutions": [
+        {
+            "C": [
+                -43.22996571073102,
+                52.2413293566303
+            ],
+            "theta3_deg": 25.27094451739857,
+            "theta4_deg": 170.8241410985983,
+            "branch_signature": 1,
+            "singularity_score": 0.5656408284187746,
+            "BC_error": 0.0,
+            "EC_error": 0.0,
+            "left_loop_residual": 0.0,
+            "right_loop_residual": 7.105427357601002e-15,
+            "validation_passed": true
+        },
+        {
+            "C": [
+                -43.513150698826095,
+                24.141817778341434
+            ],
+            "theta3_deg": 333.5742485514306,
+            "theta4_deg": 188.02105197023093,
+            "branch_signature": -1,
+            "singularity_score": 0.5656408284187749,
+            "BC_error": 0.0,
+            "EC_error": 0.0,
+            "left_loop_residual": 0.0,
+            "right_loop_residual": 0.0,
+            "validation_passed": true
+        }
+    ],
+    "sample_id": "sample_0038",
+    "mechanism_family": "5R",
+    "input_parameters": {
+        "L1_mm": 100.0,
+        "L2_mm": 81.9681022898099,
+        "L3_mm": 32.22653714046987,
+        "L4_mm": 93.97761004564175,
+        "L5_mm": 62.718800913516624,
+        "theta2_deg": 151.99829870943955,
+        "theta5_deg": 143.5583975966926
+    },
+    "benchmark_state": "regular",
+    "near_singular_rho_threshold": 0.05
+}

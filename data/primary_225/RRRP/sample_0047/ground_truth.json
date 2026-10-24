@@ -1,0 +1,64 @@
+{
+    "status": "regular",
+    "A": [
+        0.0,
+        0.0
+    ],
+    "B": [
+        -19.954173997772283,
+        -79.5022058376959
+    ],
+    "vertical_distance": -63.076003694071176,
+    "q_squared": 6021.4177579855195,
+    "q": 77.5977948010478,
+    "feasible": true,
+    "n_branches": 2,
+    "C_candidates": [
+        [
+            57.64362080327551,
+            -142.57820953176707
+        ],
+        [
+            -97.55196879882008,
+            -142.57820953176707
+        ]
+    ],
+    "solutions": [
+        {
+            "C": [
+                57.64362080327551,
+                -142.57820953176707
+            ],
+            "theta3_deg": 320.89378103136073,
+            "branch_signature": 1,
+            "singularity_score": 0.7759779480104779,
+            "BC_error": 0.0,
+            "slider_error": 0.0,
+            "loop_residual": 0.0,
+            "validation_passed": true
+        },
+        {
+            "C": [
+                -97.55196879882008,
+                -142.57820953176707
+            ],
+            "theta3_deg": 219.10621896863927,
+            "branch_signature": -1,
+            "singularity_score": 0.7759779480104778,
+            "BC_error": 0.0,
+            "slider_error": 0.0,
+            "loop_residual": 1.4210854715202004e-14,
+            "validation_passed": true
+        }
+    ],
+    "sample_id": "sample_0047",
+    "mechanism_family": "RRRP",
+    "input_parameters": {
+        "L2_mm": 81.9681022898099,
+        "L3_mm": 100.0,
+        "e_mm": -142.57820953176707,
+        "theta2_deg": 255.91044018256704
+    },
+    "benchmark_state": "regular",
+    "near_singular_rho_threshold": 0.05
+}

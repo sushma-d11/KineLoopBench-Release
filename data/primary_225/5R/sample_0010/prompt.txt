@@ -1,0 +1,26 @@
+The image shows a planar 5R five-bar mechanism.
+The diagram is schematic and not drawn to scale; use the numerical parameters below for all calculations.
+
+Numerical parameters:
+L1 = 100 mm
+L2 = 89.5924 mm
+L3 = 39.5456 mm
+L4 = 51.1368 mm
+L5 = 40.1821 mm
+theta2 = 45.7827 degrees
+theta5 = 220.678 degrees
+
+Angle convention:
+theta2 and theta5 are measured counter-clockwise from the positive x-axis.
+theta3 is the orientation of link BC measured from the positive x-axis.
+theta4 is the orientation of link EC measured from the positive x-axis.
+Report angles in the range 0 to 360 degrees.
+
+Task:
+Determine the complete set of physically valid assembly configurations for this input state.
+
+Report:
+1. The total number of valid configurations.
+2. C = (xC, yC), theta3, and theta4 for every valid configuration.
+
+If no physically valid configuration exists, report zero configurations.

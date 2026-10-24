@@ -1,0 +1,30 @@
+{
+    "status": "infeasible",
+    "A": [
+        0.0,
+        0.0
+    ],
+    "B": [
+        -36.950898692460065,
+        -29.017396276372416
+    ],
+    "D": [
+        100.0,
+        0.0
+    ],
+    "distance_BD": 139.99127808307378,
+    "feasible": false,
+    "n_branches": 0,
+    "solutions": [],
+    "sample_id": "sample_0029",
+    "mechanism_family": "RRRR",
+    "input_parameters": {
+        "L1_mm": 100.0,
+        "L2_mm": 46.98274364956222,
+        "L3_mm": 97.2302419445185,
+        "L4_mm": 30.850394936336677,
+        "theta2_deg": 218.14240867794743
+    },
+    "benchmark_state": "infeasible",
+    "near_singular_rho_threshold": 0.05
+}

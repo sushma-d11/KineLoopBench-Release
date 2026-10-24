@@ -1,0 +1,43 @@
+{
+  "source_archive": "06_Results.zip",
+  "source_of_outcome_flags": "Unchanged saved frozen-scoring CSV flags; direct first repetition only, assisted first production repetition only; exclude benchmark_state=singular; no model response text in derived tables",
+  "original_sources": {
+    "original_direct_qwen": {
+      "path": "06_Results/Scoring/Direct_Baseline/qwen3vl_4b_scores.csv",
+      "sha256": "5138a23c06e9a8b935fbae5691aa9cc771e08991dd29f570c7a7f6b43e5ff806"
+    },
+    "original_direct_gemma": {
+      "path": "06_Results/Scoring/Direct_Baseline/gemma3_4b_scores.csv",
+      "sha256": "c102917dc68755c1e84c743f97ec88b1d11bf70bc2d47ebb97b810ff8d00c440"
+    },
+    "original_direct_gemini": {
+      "path": "06_Results/Scoring/Direct_Baseline/gemini_3_8_flash_openrouter_final_scores.csv",
+      "sha256": "1464913e22a87a2fde16e49b10e1f64dd082bda4c570d2a6327b37a4ee268684"
+    },
+    "original_direct_gpt": {
+      "path": "06_Results/Scoring/Direct_Baseline/gpt54mini_openrouter_final_scores.csv",
+      "sha256": "37822d6997eac26eeec992e2ac6294cdc416539d651d42b27fd434c9f84f36ce"
+    },
+    "original_assisted_local": {
+      "path": "06_Results/Scoring/Solver_Cardinality_Assisted/Local_Production/solver_cardinality_assisted_local_production_scores.csv",
+      "sha256": "1e99df880c0e44e1560297ffa254ec6e5f442af8b32e0f1aef9fafeab3af1eb7"
+    },
+    "original_assisted_hosted": {
+      "path": "06_Results/Scoring/Solver_Cardinality_Assisted/Paid_Production/solver_cardinality_assisted_paid_production_scores.csv",
+      "sha256": "20bf962b21efb18b0f9cd791081bea6a7678d4ac7cd314eb2a2d3059293991b7"
+    },
+    "original_matched_nonsingular": {
+      "path": "06_Results/Analysis/KineBench_NonSingular_Sensitivity_Package/KineBench_NonSingular_Matched_198_Cases.csv",
+      "sha256": "214f63d7d5711538220a21a46dc5ebdb9a0ae148276ded1d58e8be0ab0aa0325"
+    },
+    "curated_primary_225_per_case_scored_outcomes": {
+      "path": "results/primary_225_per_case_scored_outcomes.csv",
+      "sha256": "29fb39e6ae34c79c351f6918c8921766ab743a0d31eb7ccdf760b441bc87cc23"
+    },
+    "curated_matched_198_case_outcomes": {
+      "path": "results/matched_nonsingular_198_case_outcomes.csv",
+      "sha256": "214f63d7d5711538220a21a46dc5ebdb9a0ae148276ded1d58e8be0ab0aa0325"
+    }
+  },
+  "note": "Original score files not present in this curated code-only release addition; their SHA-256 identities are preserved for audit."
+}
