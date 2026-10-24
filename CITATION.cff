@@ -6,3 +6,6 @@ authors:
   - given-names: Sushma
     family-names: Das
 version: 1.0.0
+
+repository-code: "https://github.com/sushma-d11/KineLoopBench-Release"
+url: "https://github.com/sushma-d11/KineLoopBench-Release"
